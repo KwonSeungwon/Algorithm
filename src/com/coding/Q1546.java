@@ -10,13 +10,16 @@ public class Q1546 {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int subjectCount = Integer.parseInt(bufferedReader.readLine());
         String[] originalScore = bufferedReader.readLine().split(" ");
-        Arrays.sort(originalScore);
-        int maxScore = Integer.parseInt(originalScore[originalScore.length - 1]);
-        double sum = 0;
+        double[] convertScore = new double[originalScore.length];
         for(int i = 0; i < originalScore.length; i++) {
-            sum += Double.parseDouble(originalScore[i]) / maxScore * 100;
+            convertScore[i] = Double.parseDouble(originalScore[i]);
         }
-        System.out.println(sum);
+        Arrays.sort(convertScore);
+        double maxScore = convertScore[convertScore.length - 1];
+        double sum = 0;
+        for(int i = 0; i < convertScore.length; i++) {
+            sum += convertScore[i] / maxScore * 100;
+        }
         System.out.println(sum / subjectCount);
     }
 }
