@@ -1,3 +1,1 @@
-# nativeJava
-
-Coding_Question_Solution
+- 알고리즘 기초문제부터 차근차근 풀기
