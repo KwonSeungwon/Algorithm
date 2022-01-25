@@ -17,27 +17,28 @@ public class Q2839 {
         int reFive = value % 5;
         int quoThree = value / 3;
         int divThree = value % 3;
+        int result = 0;
         if (quoFive > 0 && reFive == 0) { //5로 나눠떨어질 때
-            writer.append(String.valueOf(quoFive));
-        } else if(quoFive > 0 && reFive % 3 == 0) { // 5로 나눈 나머지가 3으로 나눠떨어질 때
-            writer.append(String.valueOf(quoFive + (reFive / 3)));
-        } else if(quoThree > 0 && divThree == 0) { // 3으로 나눠떨어질 때
-            writer.append(String.valueOf(quoThree));
+            result = quoFive;
+            writer.append(String.valueOf(result));
+        } else if(reFive % 3 == 0) { //5로 나누고 난 나머지가 3으로 나눠떨어질 때
+            result = quoFive + reFive / 3;
+            writer.append(String.valueOf(result));
         } else { // 외의 상황
-            int count = 0;
-            while(true) {
-                count++;
-                value -= 5;
-                if(value < 3) {
-                    writer.append("-1");
-                    break;
-                } else if (value % 3 == 0) {
-                    writer.append(String.valueOf(count + (value / 3)));
+            for(int i = quoFive; i > 0; i--) {
+                int data = value - (5 * i);
+                if (data % 3 == 0) {
+                    result = i + (data / 3);
+                    writer.append(String.valueOf(result));
                     break;
                 }
             }
         }
-
+        if(result == 0 && quoThree > 0 && divThree == 0) { // 3으로 나눠떨어질 때
+            writer.append(String.valueOf(quoThree));
+        } else if (result == 0) {
+            writer.append("-1");
+        }
         writer.flush();
         writer.close();
         reader.close();
