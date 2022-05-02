@@ -6,5 +6,6 @@ public class Main {
 //        new PhoneNumberEncryption().solution("01033334444");
 //        new Money().solution(3, 70, 4);
 //        new Budget().solution(test, 10);
+//        new PandY().solution("pPoooyY");
     }
 }
