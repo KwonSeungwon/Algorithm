@@ -12,6 +12,7 @@ public class Main {
 //        new ReverseNumber().solution(12345);
 //        new PlusAndMinus();
 //        new FindDayOfWeek().solution(5, 24));
+//        new ConverStringToNumber().solution("1zerotwozero3");
 
     }
 }
