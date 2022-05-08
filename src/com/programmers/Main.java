@@ -13,6 +13,7 @@ public class Main {
 //        new PlusAndMinus();
 //        new FindDayOfWeek().solution(5, 24));
 //        new ConverStringToNumber().solution("1zerotwozero3");
+//        new NotEmptyNumberAdd().solution(a);
 
     }
 }
