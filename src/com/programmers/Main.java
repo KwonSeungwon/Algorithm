@@ -1,7 +1,5 @@
 package com.programmers;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 //        new Rectangle().solution();
@@ -14,6 +12,8 @@ public class Main {
 //        new FindDayOfWeek().solution(5, 24));
 //        new ConverStringToNumber().solution("1zerotwozero3");
 //        new NotEmptyNumberAdd().solution(a);
+        int[] test = {4, 3, 2, 1};
+        new RemoveMinValue().solution(test);
 
     }
 }
