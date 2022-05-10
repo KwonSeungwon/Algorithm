@@ -12,8 +12,8 @@ public class Main {
 //        new FindDayOfWeek().solution(5, 24));
 //        new ConverStringToNumber().solution("1zerotwozero3");
 //        new NotEmptyNumberAdd().solution(a);
-        int[] test = {4, 3, 2, 1};
-        new RemoveMinValue().solution(test);
+//        new RemoveMinValue().solution(new int[]{4,3,2,1});
+//            new Knumber().solution(new int[]{1, 5, 2, 6, 3, 7, 4},new int[][]{{2,5,3}, {4,4,1}, {1,7,3}});
 
     }
 }
