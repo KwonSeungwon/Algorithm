@@ -16,5 +16,6 @@ public class Main {
 //        new Knumber().solution(new int[]{1, 5, 2, 6, 3, 7, 4},new int[][]{{2,5,3}, {4,4,1}, {1,7,3}});
 //        new XbetweenN().solution(-4,2);
 //        new MatrixAdd().solution(new int[][]{{1,2}, {2,3}}, new int[][]{{3, 4},{5,6}});
+//        new AddPosition().solution(1234);
     }
 }
