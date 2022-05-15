@@ -17,5 +17,6 @@ public class Main {
 //        new XbetweenN().solution(-4,2);
 //        new MatrixAdd().solution(new int[][]{{1,2}, {2,3}}, new int[][]{{3, 4},{5,6}});
 //        new AddPosition().solution(1234);
+//        new ReverseTernaryToDecimal().solution(45);
     }
 }
