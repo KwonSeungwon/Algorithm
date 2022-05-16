@@ -18,5 +18,6 @@ public class Main {
 //        new MatrixAdd().solution(new int[][]{{1,2}, {2,3}}, new int[][]{{3, 4},{5,6}});
 //        new AddPosition().solution(1234);
 //        new ReverseTernaryToDecimal().solution(45);
+//        new StrangeWord().solution("try hello world");
     }
 }
