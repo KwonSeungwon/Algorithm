@@ -20,6 +20,7 @@ public class Main {
 //        new ReverseTernaryToDecimal().solution(45);
 //        new StrangeWord().solution("try hello world");
 //        new BetweenNumberAdd().solution(5, 3);
-        new Decimal().solution(10);
+//        new Decimal().solution(10);
+//        new HaShard().solution(10);
     }
 }
