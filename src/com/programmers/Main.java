@@ -22,5 +22,6 @@ public class Main {
 //        new BetweenNumberAdd().solution(5, 3);
 //        new Decimal().solution(10);
 //        new HaShard().solution(10);
+        new CaesarNumber().solution("zZ", 1);
     }
 }
