@@ -22,6 +22,7 @@ public class Main {
 //        new BetweenNumberAdd().solution(5, 3);
 //        new Decimal().solution(10);
 //        new HaShard().solution(10);
-        new CaesarNumber().solution("zZ", 1);
+//        new CaesarNumber().solution("zZ", 1);
+        new DistinctNumbers().solution(new int[]{1,1,3,3,0,1,1});
     }
 }
