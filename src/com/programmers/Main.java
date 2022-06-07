@@ -25,6 +25,7 @@ public class Main {
 //        new CaesarNumber().solution("zZ", 1);
 //        new DistinctNumbers().solution(new int[]{1,1,3,3,0,1,1});
 //        new Finisher().solution(new String[]{"mislav", "stanko", "mislav", "ana"}, new String[]{"stanko", "ana", "mislav"});
-        new CommonMutipleAndDivisor().solution(3, 12);
+//        new CommonMutipleAndDivisor().solution(3, 12);
+        new FactorAdd().solution(13, 17);
     }
 }
