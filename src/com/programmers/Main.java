@@ -27,6 +27,8 @@ public class Main {
 //        new Finisher().solution(new String[]{"mislav", "stanko", "mislav", "ana"}, new String[]{"stanko", "ana", "mislav"});
 //        new CommonMutipleAndDivisor().solution(3, 12);
 //        new FactorAdd().solution(13, 17);
-        new RemainderZero().solution(10);
+//        new RemainderZero().solution(10);
+        new Collatz().solution(626331);
     }
+
 }
