@@ -28,7 +28,9 @@ public class Main {
 //        new CommonMutipleAndDivisor().solution(3, 12);
 //        new FactorAdd().solution(13, 17);
 //        new RemainderZero().solution(10);
-        new Collatz().solution(626331);
+//        new Collatz().solution(626331);
+//        new TwoNumberAllAdd().solution(new int[]{2,1,3,4,1});
+        new TwoNumberAllAdd().solution(new int[]{5,0,2,7});
     }
 
 }
