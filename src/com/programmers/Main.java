@@ -30,7 +30,9 @@ public class Main {
 //        new RemainderZero().solution(10);
 //        new Collatz().solution(626331);
 //        new TwoNumberAllAdd().solution(new int[]{2,1,3,4,1});
-        new TwoNumberAllAdd().solution(new int[]{5,0,2,7});
+//        new TwoNumberAllAdd().solution(new int[]{5,0,2,7});
+//        new Pokemon().solution(new int[]{3,1,2,3});
+        new SquareRoot().solution(1);
     }
 
 }
