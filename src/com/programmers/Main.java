@@ -32,7 +32,9 @@ public class Main {
 //        new TwoNumberAllAdd().solution(new int[]{2,1,3,4,1});
 //        new TwoNumberAllAdd().solution(new int[]{5,0,2,7});
 //        new Pokemon().solution(new int[]{3,1,2,3});
-        new SquareRoot().solution(1);
+//        new SquareRoot().solution(1);
+//        new MockTest().solution(new int[]{1, 2, 3, 4, 5});
+        new MockTest().solution(new int[]{1,3,2,4,2});
     }
 
 }
