@@ -13,13 +13,13 @@ public class MockTest {
         int countThree = 0;
         for (int i = 0; i < answers.length; i++) {
             int ans = answers[i];
-            if (studentOne[i]  == ans) {
+            if (studentOne[countOne] == ans) {
                 answer[0]++;
             }
-            if (studentTwo[i]  == ans) {
+            if (studentTwo[countTwo] == ans) {
                 answer[1]++;
             }
-            if (studentThree[i]  == ans) {
+            if (studentThree[countThree] == ans) {
                 answer[2]++;
             }
             countOne++;
@@ -35,15 +35,15 @@ public class MockTest {
                 countThree = 0;
             }
         }
-
-        int[] ranking = new int[3];
-        for (int i = 0; i < answers.length; i++) {
-
+        int max = Arrays.stream(answer).max().getAsInt();
+        StringBuilder result = new StringBuilder();
+        for(int i = 0; i < answer.length; i++) {
+            if (answer[i] == max) {
+                result.append(i + 1);
+            }
         }
+        String[] results = result.toString().split("");
 
-
-        System.out.println(Arrays.toString(answer));
-
-        return answer;
+        return Arrays.stream(results).mapToInt(Integer::parseInt).toArray();
     }
 }
