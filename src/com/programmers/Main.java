@@ -35,7 +35,9 @@ public class Main {
 //        new SquareRoot().solution(1);
 //        new MockTest().solution(new int[]{1, 2, 3, 4, 5});
 //        new MockTest().solution(new int[]{1,3,2,4,2, 5, 7, 2, 8, 9 ,10 ,11});
-        new BusinessCard().solution(new int[][]{{60, 50}, {30, 70}, {60, 30}, {80, 40}});
+//        new BusinessCard().solution(new int[][]{{60, 50}, {30, 70}, {60, 30}, {80, 40}});
+//        new WordSorting().solution(new String[]{"abce", "abcd", "cdx"}, 2);
+        new WordSorting().solution(new String[]{"sun", "bed", "car"}, 1);
     }
 
 }
