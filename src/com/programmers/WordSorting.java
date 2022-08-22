@@ -1,6 +1,6 @@
 package com.programmers;
 
-import java.util.ArrayList;
+import java.util.*;
 import java.util.Arrays;
 
 public class WordSorting {
@@ -13,19 +13,16 @@ public class WordSorting {
             sortedArr[i] = String.valueOf(strings[i].charAt(n));
         }
         Arrays.sort(sortedArr);
-        int count = 0;
         for (int i = 0; i < strings.length; i++) {
             String word = sortedArr[i];
-            for (int j = count; j < strings.length; j++) {
-                if (strings[j].charAt(n) == word.charAt(0)) {
+            for (int j = 0; j < strings.length; j++) {
+                if (strings[j] != null && strings[j].charAt(n) == word.charAt(0)) {
                     answer[i] = strings[j];
-                    count++;
+                    strings[j] = null;
                     break;
                 }
             }
         }
-        System.out.println(Arrays.toString(answer));
-
         return answer;
     }
 }
