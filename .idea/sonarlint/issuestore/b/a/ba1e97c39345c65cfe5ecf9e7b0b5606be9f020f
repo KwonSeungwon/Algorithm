@@ -1,0 +1,7 @@
+
+g
+java:S2677
+"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ
+Q	java:S125	"<This block of commented-out lines of code should be removed.(¨êø
+N	java:S106"9Replace this use of System.out or System.err by a logger.(•âî®
+Q	java:S125"<This block of commented-out lines of code should be removed.(´££Û

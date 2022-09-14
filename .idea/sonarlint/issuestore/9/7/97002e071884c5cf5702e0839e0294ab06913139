@@ -1,0 +1,14 @@
+
+k	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(šõÑ²úÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ¹õ¹ÿÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘©’àûÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜‰Ôûÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Š±ÇÜ
+^
+java:S1214"CMove constants defined in this interfaces to another class or enum.(šõÑ²úÿÿÿÿ
+N
+java:S2386"3Move "codesOne" to a class and lower its visibility(ñãÉİüÿÿÿÿ
+N
+java:S2386"3Move "codesTwo" to a class and lower its visibility(á¿Ì”úÿÿÿÿ
+K
+java:S2386"5Move "emptyCodes" to a class and lower its visibility(ú¡
