@@ -1,0 +1,17 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(®¨şì
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+S
+java:S1854"8Remove this useless assignment to local variable "hour".(¹Å°ùûÿÿÿÿ
+[
+java:S1854""@Remove this useless assignment to local variable "resultMinute".(¢×€²üÿÿÿÿ
+P
+java:S1854$";Remove this useless assignment to local variable "addTime".(íµ”6
+D
+java:S1481")Remove this unused "hour" local variable.(¹Å°ùûÿÿÿÿ
+G
+java:S1481",Remove this unused "addTime" local variable.(µ’ƒûÿÿÿÿ
+G
+java:S1481"1Remove this unused "resultMinute" local variable.(ŞÏĞø
+J
+java:S1481 "/Remove this unused "resultTime" local variable.(Æ­–ıÿÿÿÿ
