@@ -38,7 +38,8 @@ public class Main {
 //        new BusinessCard().solution(new int[][]{{60, 50}, {30, 70}, {60, 30}, {80, 40}});
 //        new WordSorting().solution(new String[]{"abce", "abcd", "cdx"}, 2);
 //        new JadenCase().solution("for the last week");
-        new NextBigestNumber().solution(15);
+//        new NextBigestNumber().solution(15);
+        new NumberAdded().solution(15);
     }
 
 }
