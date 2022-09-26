@@ -39,7 +39,8 @@ public class Main {
 //        new WordSorting().solution(new String[]{"abce", "abcd", "cdx"}, 2);
 //        new JadenCase().solution("for the last week");
 //        new NextBigestNumber().solution(15);
-        new NumberAdded().solution(15);
+//        new NumberAdded().solution(15);
+        new MakeMinimumValue().solution(new int[]{1, 2}, new int[]{3, 4});
     }
 
 }
