@@ -40,7 +40,8 @@ public class Main {
 //        new JadenCase().solution("for the last week");
 //        new NextBigestNumber().solution(15);
 //        new NumberAdded().solution(15);
-        new MakeMinimumValue().solution(new int[]{1, 2}, new int[]{3, 4});
+//        new MakeMinimumValue().solution(new int[]{1, 2}, new int[]{3, 4});
+        new MatchRemove().solution("110010101001");
     }
 
 }
