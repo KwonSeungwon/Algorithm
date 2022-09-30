@@ -15,9 +15,9 @@ public class ProperBracket {
                 isClosed = true;
                 rignt++;
             }
-            if (!isClosed && rignt > 0 && left != rignt) {
-                answer = false;
-                break;
+            if (!isClosed && rignt > 0) {
+                left = 0;
+                rignt = 0;
             }
         }
         System.out.println(answer);
