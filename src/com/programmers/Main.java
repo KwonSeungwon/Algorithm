@@ -42,7 +42,8 @@ public class Main {
 //        new NumberAdded().solution(15);
 //        new MakeMinimumValue().solution(new int[]{1, 2}, new int[]{3, 4});
 //        new MatchRemove().solution("110010101001");
-        new ProperBracket().solution(")()(");
+//        new ProperBracket().solution(")()(");
+        new CommonMultiple().solution(new int[]{1,2,3});
     }
 
 }
