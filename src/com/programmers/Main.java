@@ -43,7 +43,8 @@ public class Main {
 //        new MakeMinimumValue().solution(new int[]{1, 2}, new int[]{3, 4});
 //        new MatchRemove().solution("110010101001");
 //        new ProperBracket().solution(")()(");
-        new CommonMultiple().solution(new int[]{1,2,3});
+//        new CommonMultiple().solution(new int[]{1,2,3});
+        new ThreeMusketeers().solution(new int[]{-2, 3, 0, 2, -5});
     }
 
 }
