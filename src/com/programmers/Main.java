@@ -44,7 +44,7 @@ public class Main {
 //        new MatchRemove().solution("110010101001");
 //        new ProperBracket().solution(")()(");
 //        new CommonMultiple().solution(new int[]{1,2,3});
-        new ThreeMusketeers().solution(new int[]{-2, 3, 0, 2, -5});
+        new SelectTangerine().solution(6, new int[]{1, 3, 2, 5, 4, 5, 2, 3});
     }
 
 }
