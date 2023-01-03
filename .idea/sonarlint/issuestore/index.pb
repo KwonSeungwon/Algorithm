@@ -25,3 +25,5 @@ T
 $src/com/programmers/MatchRemove.java,8\a\8ae7c2b3231ac700baee710226f7e311b2ca86ba
 Y
 )src/com/programmers/MakeMinimumValue.java,4\d\4d3e1d319728ee50a7a0348a0f089b5a681c8570
+K
+src/com/baekjoon/Q2750.java,0\0\004236d32680092e830f4bd8a7446a542f92deeb

@@ -5,22 +5,23 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-//과제 안내신 분..?
-public class Q5597 {
+//개수세기
+public class Q10807 {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
-        int[] arr = new int[31];
-        for (int i = 1; i != 29; i++) {
-            arr[Integer.parseInt(reader.readLine())] = 1;
-        }
-        for(int i = 1; i < arr.length; i++) {
-            if (arr[i] == 0) {
-                writer.append(String.valueOf(i)).append("\n");
+        reader.readLine();
+        String[] numbers = reader.readLine().split(" ");
+        String target = reader.readLine();
+        int result = 0;
+        for(String number : numbers) {
+            if (number.equals(target)) {
+                result++;
             }
         }
+        writer.append(String.valueOf(result));
         writer.flush();
-        reader.close();
         writer.close();
+        reader.close();
     }
 }
