@@ -44,6 +44,7 @@ public class Main {
 //        new MatchRemove().solution("110010101001");
 //        new ProperBracket().solution(")()(");
 //        new CommonMultiple().solution(new int[]{1,2,3});
+//        new DotProduct().solution(new int[]{1,2,3,4}, new int[]{-3, -1, 0, 2});
         new DivideWord().solution("abracadabra");
     }
 
