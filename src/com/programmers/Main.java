@@ -45,7 +45,9 @@ public class Main {
 //        new ProperBracket().solution(")()(");
 //        new CommonMultiple().solution(new int[]{1,2,3});
 //        new DotProduct().solution(new int[]{1,2,3,4}, new int[]{-3, -1, 0, 2});
-        new DivideWord().solution("abracadabra");
+//        new DivideWord().solution("abracadabra");
+        new TreasureMap().solution(6, new int[]{46,33,33,22,31,50}, new int[]{27,56,19,14,14,10});
+
     }
 
 }
