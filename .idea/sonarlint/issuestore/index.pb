@@ -39,3 +39,7 @@ w
 G.idea/sonarlint/issuestore/8/a/8ae7c2b3231ac700baee710226f7e311b2ca86ba,5\1\513a248ec609f653ead8fdd8cfbc5f0030841fa9
 w
 G.idea/sonarlint/issuestore/5/9/5938cd27e2b451ccf2e0ee884c8b0c676c89a64c,4\0\40c190b2e12402534157a774a229c2a7a9a6d8ee
+L
+src/com/baekjoon/Q10807.java,5\f\5ff91db492e6538f45182414e6478f16f99ef3e4
+K
+src/com/baekjoon/Q4673.java,f\3\f3064147039c55671b0842151c6b689271291d5b
