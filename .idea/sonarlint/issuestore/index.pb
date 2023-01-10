@@ -29,8 +29,6 @@ K
 src/com/baekjoon/Q2750.java,0\0\004236d32680092e830f4bd8a7446a542f92deeb
 R
 "src/com/programmers/JadenCase.java,a\e\ae17ba20248aa58de66b43b2bbb43b46de479ced
-S
-#src/com/programmers/DivideWord.java,4\e\4e52d79f52d40ec2a9776cae80069aaac228aa3a
 W
 'src/com/programmers/CommonMultiple.java,4\2\42118c53803838e22c79a9393d59352cd8eb2b9d
 V
