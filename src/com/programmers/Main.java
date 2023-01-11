@@ -48,7 +48,8 @@ public class Main {
 //        new TreasureMap().solution(6, new int[]{46,33,33,22,31,50}, new int[]{27,56,19,14,14,10});
 //        new ThreeMusketeers().solution(new int[]{-2,3,0,2,-5});
 //        new PartiallyString().solution("500220839878", "7");
-        new DivideWord().solution("abracadabra");
+        new NearbyString().solution("bababababa");
+//        new DivideWord().solution("abracadabra");
 
     }
 
