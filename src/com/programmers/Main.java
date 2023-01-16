@@ -48,8 +48,9 @@ public class Main {
 //        new TreasureMap().solution(6, new int[]{46,33,33,22,31,50}, new int[]{27,56,19,14,14,10});
 //        new ThreeMusketeers().solution(new int[]{-2,3,0,2,-5});
 //        new PartiallyString().solution("500220839878", "7");
-        new NearbyString().solution("bababababa");
 //        new DivideWord().solution("abracadabra");
+//        new NearbyString().solution("bababababa");
+        new Validity().solution("2022.05.19", new String[]{"A 6", "B 12", "C 3"}, new String[]{"2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"});
 
     }
 
