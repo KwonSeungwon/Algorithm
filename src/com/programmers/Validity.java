@@ -6,21 +6,21 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+
+//개인정보 수집 유효기간
 public class Validity {
-    public int[] solution(String today, String[] terms, String[] privacies) {
-        int[] answer = {};
+    public List<Integer> solution(String today, String[] terms, String[] privacies) {
         List<Integer> answerList = new ArrayList<>();
         LocalDate parsedToday = LocalDate.parse(today, DateTimeFormatter.ofPattern("yyyy.MM.dd"));
         HashMap<String, Integer> termMap = convertTerms(terms);
         for(int i = 0; i < privacies.length; i++) {
             String[] dateAndType = privacies[i].split(" ");
-            System.out.println(LocalDate.parse(dateAndType[0], DateTimeFormatter.ofPattern("yyyy.MM.dd")).plusMonths(termMap.get(dateAndType[1])));
-            if (parsedToday.isAfter(LocalDate.parse(dateAndType[0], DateTimeFormatter.ofPattern("yyyy.MM.dd")).plusMonths(termMap.get(dateAndType[1])))) {
+            LocalDate maximumDate = LocalDate.parse(dateAndType[0], DateTimeFormatter.ofPattern("yyyy.MM.dd")).plusMonths(termMap.get(dateAndType[1]));
+            if (parsedToday.equals(maximumDate) || parsedToday.isAfter(maximumDate)) {
                 answerList.add(i + 1);
             }
         }
-        System.out.println(answerList);
-        return answer;
+        return answerList;
     }
 
     private HashMap<String, Integer> convertTerms(String[] terms) {

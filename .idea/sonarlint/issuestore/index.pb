@@ -41,3 +41,5 @@ L
 src/com/baekjoon/Q10807.java,5\f\5ff91db492e6538f45182414e6478f16f99ef3e4
 K
 src/com/baekjoon/Q4673.java,f\3\f3064147039c55671b0842151c6b689271291d5b
+K
+src/com/baekjoon/Q5622.java,d\7\d7739e1d2affdae8dea7ab713c7e2ef6ee21dc35
