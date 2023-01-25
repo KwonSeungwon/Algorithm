@@ -51,7 +51,8 @@ public class Main {
 //        new DivideWord().solution("abracadabra");
 //        new NearbyString().solution("bababababa");
 //        new Validity().solution("2022.05.19", new String[]{"A 6", "B 12", "C 3"}, new String[]{"2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"});
-        new Babbling().solution(new String[]{"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa", "woowo", "mawoowoo", "ayayeaya"});
+//        new Coke().solution(2, 1, 20);
+            new Babbling().solution(new String[]{"bbbaababa"});
 
     }
 
