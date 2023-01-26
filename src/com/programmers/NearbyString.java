@@ -1,23 +1,22 @@
 package com.programmers;
+import java.util.HashMap;
 
-import java.util.Arrays;
 
+//가장가까운글자
 public class NearbyString {
     public int[] solution(String s) {
         int[] answer = new int[s.length()];
-        int[] socket = new int[130];
-
+        HashMap<String, Integer> alpha = new HashMap<>();
         for(int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            if (socket[ch] == 0) {
-                socket[ch] = i;
+            String target = String.valueOf(s.charAt(i));
+            if (alpha.get(target) == null) {
+                alpha.put(target, i);
                 answer[i] = -1;
             } else {
-                answer[i] = i - socket[ch];
-                socket[ch] = i;
+                answer[i] = i - alpha.get(target);
+                alpha.put(target, i);
             }
         }
-        System.out.println(Arrays.toString(answer));
 
         return answer;
     }

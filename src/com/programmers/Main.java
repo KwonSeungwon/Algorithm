@@ -49,10 +49,10 @@ public class Main {
 //        new ThreeMusketeers().solution(new int[]{-2,3,0,2,-5});
 //        new PartiallyString().solution("500220839878", "7");
 //        new DivideWord().solution("abracadabra");
-//        new NearbyString().solution("bababababa");
 //        new Validity().solution("2022.05.19", new String[]{"A 6", "B 12", "C 3"}, new String[]{"2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"});
 //        new Coke().solution(2, 1, 20);
-            new Babbling().solution(new String[]{"bbbaababa"});
+//        new NearbyString().solution("bananab");
+        new Babbling().solution(new String[]{"bbbaababa"});
 
     }
 
