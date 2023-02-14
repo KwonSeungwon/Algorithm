@@ -6,9 +6,10 @@ public class Babbling {
         String[] basicWord = new String[]{"aya", "ye", "woo", "ma"};
         for(String word : babbling) {
             for(String bw : basicWord) {
-                if (word.indexOf(bw) != -1) {
-                    word = word.substring(word.indexOf(bw), bw.length());
-                }
+                int foundIdx = word.indexOf(bw);
+//                if (foundIdx != -1 && word.charAt(foundIdx + 1)) {
+//                    word = word.substring(word.indexOf(bw), bw.length());
+//                }
             }
             if(word.equals("")) {
                 answer++;

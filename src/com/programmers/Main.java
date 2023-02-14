@@ -1,5 +1,7 @@
 package com.programmers;
 
+import com.baekjoon.FoodFighter;
+
 public class Main {
     public static void main(String[] args) {
 //        new Rectangle().solution();
@@ -52,7 +54,8 @@ public class Main {
 //        new Validity().solution("2022.05.19", new String[]{"A 6", "B 12", "C 3"}, new String[]{"2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"});
 //        new Coke().solution(2, 1, 20);
 //        new NearbyString().solution("bananab");
-        new Babbling().solution(new String[]{"bbbaababa"});
+        new FoodFighter().solution(new int[]{1,3,4,6});
+//        new Babbling().solution(new String[]{"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"});
 
     }
 
