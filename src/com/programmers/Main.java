@@ -1,7 +1,5 @@
 package com.programmers;
 
-import com.baekjoon.FoodFighter;
-
 public class Main {
     public static void main(String[] args) {
 //        new Rectangle().solution();

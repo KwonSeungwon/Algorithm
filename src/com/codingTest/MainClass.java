@@ -1,4 +1,4 @@
-package com.codingtest;
+package com.codingTest;
 
 public class MainClass {
     public static void main(String[] args) {

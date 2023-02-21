@@ -1,4 +1,4 @@
-package com.codingtest;
+package com.codingTest;
 
 
 public class CompanyH {

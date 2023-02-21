@@ -1,4 +1,4 @@
-package com.baekjoon;
+package com.programmers;
 
 public class FoodFighter {
     public String solution(int[] food) {
