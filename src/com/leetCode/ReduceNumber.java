@@ -10,7 +10,6 @@ public class ReduceNumber {
                 num--;
             }
             count++;
-
         }
         return count;
     }
