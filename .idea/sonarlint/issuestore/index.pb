@@ -53,8 +53,6 @@ T
 $src/com/programmers/BlogWriting.java,9\8\98ea853b12067d1d88b29270fd5fbf15020b809a
 S
 #src/com/programmers/DotProduct.java,8\3\83d7cfea5f899de2866008042aa55cbd927dee0a
-Q
-!src/com/programmers/Babbling.java,5\0\503921c1698e8ecfc027c271ecc9dc4e7e7d2b55
 X
 (src/com/programmers/PartiallyString.java,0\9\0902154b6cf18f211ddbd0a0f25a144514ede3ba
 T
@@ -63,7 +61,5 @@ M
 src/com/programmers/Coke.java,1\7\17c5e880632549d5be965829adf4c86626c1c969
 K
 src/com/baekjoon/Q5597.java,3\c\3c30b7d465e8576c07ea7a70a81b4055fefe2e65
-M
-src/com/programmers/Main.java,3\b\3bd64acb3b49b8da979cbc1241facce7c72c04d1
 S
 #src/com/leetCode/SumOfOneArray.java,3\0\30563bf17ac9bda77f48afa67f8b7ee546398ee3
