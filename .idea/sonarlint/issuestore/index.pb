@@ -63,3 +63,5 @@ K
 src/com/baekjoon/Q5597.java,3\c\3c30b7d465e8576c07ea7a70a81b4055fefe2e65
 S
 #src/com/leetCode/SumOfOneArray.java,3\0\30563bf17ac9bda77f48afa67f8b7ee546398ee3
+P
+ src/com/programmers/Collatz.java,5\6\56e54883a0cad4ff86e92b32153c59b91fc4f319
