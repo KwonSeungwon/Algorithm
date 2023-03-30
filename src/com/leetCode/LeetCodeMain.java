@@ -8,6 +8,6 @@ public class LeetCodeMain {
 //        new FizzBuzz().fizzBuzz(15);
 //        new ReduceNumber().numberOfSteps(123);
 //        new LinkedList().middleNode(new LinkedList.ListNode());
-        new RansomNote().canConstruct("aab", "baa");
+        new RansomNote().canConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi");
     }
 }
