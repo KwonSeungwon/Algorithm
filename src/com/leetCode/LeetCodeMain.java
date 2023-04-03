@@ -8,6 +8,9 @@ public class LeetCodeMain {
 //        new FizzBuzz().fizzBuzz(15);
 //        new ReduceNumber().numberOfSteps(123);
 //        new LinkedList().middleNode(new LinkedList.ListNode());
-        new RansomNote().canConstruct("aab", "baa");
+//        new RansomNote().canConstruct("aab", "baa");
+//        new TwoSum().twoSum(new int[]{2,7,11,15}, 9);
+//        new CoomonPrefix().longestCommonPrefix(new String[]{"dog","racecar","car"});
+        new Brackets().isValid("(]");
     }
 }
