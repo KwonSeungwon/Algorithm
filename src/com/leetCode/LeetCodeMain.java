@@ -9,6 +9,11 @@ public class LeetCodeMain {
 //        new ReduceNumber().numberOfSteps(123);
 //        new LinkedList().middleNode(new LinkedList.ListNode());
 //        new RansomNote().canConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi");
+//        new RansomNote().canConstruct("aab", "baa");
+//        new TwoSum().twoSum(new int[]{2,7,11,15}, 9);
+//        new CoomonPrefix().longestCommonPrefix(new String[]{"dog","racecar","car"});
+//        new Brackets().isValid("(]");
         new AddNumberOne().plusOne(new int[]{9,8,7,6,5,4,3,2,1,0});
+
     }
 }
