@@ -65,3 +65,9 @@ S
 #src/com/leetCode/SumOfOneArray.java,3\0\30563bf17ac9bda77f48afa67f8b7ee546398ee3
 P
  src/com/programmers/Collatz.java,5\6\56e54883a0cad4ff86e92b32153c59b91fc4f319
+L
+src/com/leetCode/TwoSum.java,1\3\139861225d35318a5ffb32ec6ad8b167e17e442a
+Y
+)src/com/programmers/NextBigestNumber.java,0\9\09512620408f8f87e5db96955064221dbffd1217
+R
+"src/com/leetCode/ReduceNumber.java,0\7\0786cc068de21d06eb3d388a6349a838d5c8b848

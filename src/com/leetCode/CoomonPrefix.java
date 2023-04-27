@@ -1,22 +1,21 @@
 package com.leetCode;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class CoomonPrefix {
     public String longestCommonPrefix(String[] strs) {
-        StringBuilder result = new StringBuilder();
-        Map<Character, Integer> map = new HashMap<>();
-        for(int i = 0; i != strs.length; i++) {
-            for(int j = 0; j != strs[i].length(); j++) {
-                char targetChar = strs[i].charAt(j);
-                map.put(targetChar, map.getOrDefault(targetChar, 0) + 1);
-                if (map.get(targetChar) == strs.length) {
-                    result.append(targetChar);
-                }
+        Arrays.sort(strs);
+        String first = strs[0];
+        String last = strs[strs.length - 1];
+        int count = 0;
+        while (count < first.length()) {
+            if (first.charAt(count) == last.charAt(count)) {
+                count++;
+            } else {
+                break;
             }
         }
-
-        return result.toString();
+        return count == 0 ? "" : first.substring(0, count);
     }
 }
